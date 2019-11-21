@@ -1,6 +1,9 @@
 name = "stockprices"
 type = "javascript"
-account_id = ""
+account_id = "YOUR_ACCOUNT"
 workers_dev = true
 route = ""
 zone_id = ""
+kv-namespaces = [
+         { binding = "YOUR_KV_NAME", id = "YOUR_KV_ID" }
+]
